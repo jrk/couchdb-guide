@@ -1,3 +1,13 @@
+jrk's buildable fork
+====================
+
+I've made a modest fork of the original repository which builds cleanly into epub with off-the-shelf docbook-xsl `dbtoepub src/01/book.xml`. (The script lives in the `DOCBOOK_XSL_ROOT/epub/dbtoepub` at least as of docbook-xsl version 1.75.2.)
+
+Changes
+-------
+
+The only change so far was the addition of cover images under `src/covers`. These are referenced in the `book.xml`, but are not included in the repository. Rather than removing these references, I downloaded and created corresponding images at the required paths.
+
 <h1>CouchDB: The Definitive Guide</h1>
 
 <p>This is the source code repository for a free book about Apache CouchDB.
